@@ -6,6 +6,10 @@ dist/
 link-report.md
 link-report.json
 
+# Environment
+.env
+.env.local
+
 # OS files
 .DS_Store
 Thumbs.db
