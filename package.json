@@ -1,0 +1,42 @@
+{
+  "name": "link-patrol",
+  "version": "1.0.0",
+  "description": "Crawl your site, find broken links, generate reports — CLI and CI ready",
+  "author": "katogatogato",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/katogatogato/link-patrol"
+  },
+  "keywords": [
+    "dead-links",
+    "link-checker",
+    "crawler",
+    "ci",
+    "seo"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "link-patrol": "./bin/link-patrol"
+  },
+  "files": [
+    "dist/",
+    "bin/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "typescript": "^5.5.0"
+  }
+}
